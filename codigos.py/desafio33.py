@@ -14,5 +14,5 @@ if b > a and b > c:
     maior = b
 if c > a and c > a:
     maior = c
-print('O menor numero é o {}:'.format(menor))
-print('O maior é o {}'.format(maior))
+print('O menor numero é o {}{}{}:'.format('\33[1;30;41m', menor, '\33[m'))
+print('O maior é o {}{}{}'.format('\33[1;30;41m', maior, '\33[m'))
